@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "http://34.158.60.9:8000"
+    },
+    {
+      "source": "/:match*",
+      "destination": "http://34.158.60.9:8000/:match*"
+    }
+  ]
+}
