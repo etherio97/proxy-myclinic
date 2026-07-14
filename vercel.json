@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "https://34.124.225.250:8000"
+      "destination": "http://34.124.225.250:8000"
     },
     {
       "source": "/:match*",
-      "destination": "https://34.124.225.250:8000/:match*"
+      "destination": "http://34.124.225.250:8000/:match*"
     }
   ]
 }
